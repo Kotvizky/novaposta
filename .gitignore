@@ -9,4 +9,5 @@ web/
 # my exclusions
 !.cache
 !.templates_c
+templates_c/
 libs/

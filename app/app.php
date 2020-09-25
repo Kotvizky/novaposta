@@ -19,6 +19,7 @@ $smarty->assign('navbar',[
     ['name' => 'регионы',       'param'=>'index.php?regions'],
     ['name' => 'склады',        'param'=>'index.php?warehouses'],
     ['name' => 'отправитель',   'param'=>'index.php?sender'],
+    ['name' => 'зарегистрировать ТТН',   'param'=>'index.php?newTtn'],
     ['name' => 'печать',         'param'=>'index.php?print'],
     ['name' => 'заполнить города',         'param'=>'index.php?updateCities'],
 ]);
@@ -31,6 +32,11 @@ if ($_GET) {
 }
 
 $smarty->display('index.tpl');
+
+function newTtn(){
+
+    printContent(['content' => ''],'newTtn.tpl');
+}
 
 function sender(){
 
@@ -63,6 +69,7 @@ function sender(){
         'warehouseRef' => $warehouseRef,
         'cities' => $cities,
         'warehouses' => $warehouses,
+        'senderRef' => $setting['sender_ref'],
     ],'senderForm.tpl');
 
 }

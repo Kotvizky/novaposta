@@ -51,6 +51,28 @@ $('#np-city').on('change', function (e) {
 
 })
 
+function showMessage(text) {
+    $('#message-text').html('<pre>' + text + '</pre>');
+    $('#message').removeClass('d-none');
+}
+
 $('#getSenderRef').on('click', function(e) {
-    alert('get sender ref');
+
+    $.ajax({
+        url: "app/action/saveSenderRef.php",
+        data:{ref: e.target.value},
+    }).done(function(data) {
+        var answer = JSON.parse(data);
+        if (answer.success){
+            $('#np-sender-ref').val(answer.ref);
+        }
+        console.log(answer);
+        showMessage(data);
+        //updateSelect(select, warehouses, 'склад')
+    })
 })
+
+$('#btn-close').on('click', function(e) {
+    $('#message').addClass('d-none');
+})
+

@@ -5,10 +5,15 @@
 
         public function __construct()
         {
-            $this->pdo = connect();
+            $this->pdo = $this->connect();
+            $this->apiKey = $this->getApiKey();
+            require_once  __DIR__ . '/../src/Delivery/NovaPoshtaApi2.php';
+            $this->np = new \LisDev\Delivery\NovaPoshtaApi2($this->apiKey);
         }
 
         private $pdo;
+        public $np;
+        public $apiKey;
 
         function getSetting(){
             $sth = $this->pdo->prepare(
@@ -47,11 +52,7 @@
         }
 
         function getWarehouses($city_ref){
-            $apiKey = $this->getApiKey();
-            if (!$apiKey) return [];
-            require_once './src/Delivery/NovaPoshtaApi2.php';
-            $np = new \LisDev\Delivery\NovaPoshtaApi2($apiKey);
-            $result = $np->getWarehouses($city_ref);
+            $result = $this->np->getWarehouses($city_ref);
             $data = [];
             foreach ($result['data'] as $item) {
                 $data[] = [ 'ref' => $item['Ref'], 'description' => $item['Description'] ];
@@ -74,8 +75,13 @@
             }
         }
 
-        function getApiKey() {
+        function saveSenerRef($ref) {
+            $sth = $this->pdo
+                ->prepare("update setting set sender_ref = ?");
+            $sth->execute([$ref]);
+        }
 
+        function getApiKey() {
             $sth = $this->pdo->prepare(
                 "SELECT api_key FROM setting LIMIT 1");
             $sth->execute();
