@@ -1,0 +1,1977 @@
+Array
+(
+    [success] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [SiteKey] => 20
+                    [Description] => Відділення №1 (до 30 кг на одне місце): вул. Старобілоуська, 77
+                    [DescriptionRu] => Отделение №1 (до 30 кг на одно место): ул. Старобелоуская, 77
+                    [ShortAddress] => Чернігів, Старобілоуська, 77
+                    [ShortAddressRu] => Чернигов, Старобелоуская, 77
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 1ec09d3a-e1c2-11e3-8c4a-0050568002cf
+                    [Number] => 1
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.261488500000000
+                    [Latitude] => 51.501273790864000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 0
+                    [PlaceMaxWeightAllowed] => 30
+                    [Reception] => Array
+                        (
+                            [Monday] => 09:00-20:00
+                            [Tuesday] => 09:00-20:00
+                            [Wednesday] => 09:00-20:00
+                            [Thursday] => 09:00-20:00
+                            [Friday] => 09:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:15-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:45
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ1
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2000-01-01 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [1] => Array
+                (
+                    [SiteKey] => 161
+                    [Description] => Відділення №2 (до 30 кг): просп. Перемоги, 50
+                    [DescriptionRu] => Отделение №2 (до 30 кг): просп. Победы, 50
+                    [ShortAddress] => Чернігів, Перемоги, 50
+                    [ShortAddressRu] => Чернигов, Победы, 50
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 336de175-e1c2-11e3-8c4a-0050568002cf
+                    [Number] => 2
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.281729000000000
+                    [Latitude] => 51.488489000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 11:00-20:00
+                            [Tuesday] => 11:00-20:00
+                            [Wednesday] => 11:00-20:00
+                            [Thursday] => 11:00-20:00
+                            [Friday] => 11:00-20:00
+                            [Saturday] => 11:00-17:00
+                            [Sunday] => 12:30-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:40
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ2
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2019-11-21 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [2] => Array
+                (
+                    [SiteKey] => 307
+                    [Description] => Відділення №3 (до 30 кг на одне місце): просп. Перемоги, 139
+                    [DescriptionRu] => Отделение №3 (до 30 кг на одно место): просп. Победы, 139
+                    [ShortAddress] => Чернігів, Перемоги, 139
+                    [ShortAddressRu] => Чернигов, Победы, 139
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 16922852-e1c2-11e3-8c4a-0050568002cf
+                    [Number] => 3
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.310054000000000
+                    [Latitude] => 51.501922000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 0
+                    [PlaceMaxWeightAllowed] => 30
+                    [Reception] => Array
+                        (
+                            [Monday] => 11:25-20:00
+                            [Tuesday] => 11:25-20:00
+                            [Wednesday] => 11:25-20:00
+                            [Thursday] => 11:25-20:00
+                            [Friday] => 11:25-20:00
+                            [Saturday] => 11:25-17:00
+                            [Sunday] => 12:45-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:45
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ3
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2011-07-30 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [3] => Array
+                (
+                    [SiteKey] => 589
+                    [Description] => Відділення №4 (до 30 кг): вул. Рокоссовського, 68
+                    [DescriptionRu] => Отделение №4 (до 30 кг): ул. Рокоссовского, 68
+                    [ShortAddress] => Чернігів, Рокоссовського, 68
+                    [ShortAddressRu] => Чернигов, Рокоссовского, 68
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 40498320-e1c2-11e3-8c4a-0050568002cf
+                    [Number] => 4
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.312947100000000
+                    [Latitude] => 51.514366700000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 11:30-20:00
+                            [Tuesday] => 11:30-20:00
+                            [Wednesday] => 11:30-20:00
+                            [Thursday] => 11:30-20:00
+                            [Friday] => 11:30-20:00
+                            [Saturday] => 11:30-17:00
+                            [Sunday] => 12:05-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:40
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ4
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2012-03-16 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [4] => Array
+                (
+                    [SiteKey] => 820
+                    [Description] => Відділення №5 (до 30 кг на одне місце): просп. Миру, 180а
+                    [DescriptionRu] => Отделение №5 (до 30 кг на одно место): просп. Мира, 180а
+                    [ShortAddress] => Чернігів, Миру, 180а
+                    [ShortAddressRu] => Чернигов, Мира, 180а
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 5a39e5b5-e1c2-11e3-8c4a-0050568002cf
+                    [Number] => 5
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.275103000000000
+                    [Latitude] => 51.517275000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 0
+                    [PlaceMaxWeightAllowed] => 30
+                    [Reception] => Array
+                        (
+                            [Monday] => 11:00-20:00
+                            [Tuesday] => 11:00-20:00
+                            [Wednesday] => 11:00-20:00
+                            [Thursday] => 11:00-20:00
+                            [Friday] => 11:00-20:00
+                            [Saturday] => 11:00-17:00
+                            [Sunday] => 12:05-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:20
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ5
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2012-06-25 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [5] => Array
+                (
+                    [SiteKey] => 10090
+                    [Description] => Відділення №6 (до 30 кг): вул. Шевченка, 46
+                    [DescriptionRu] => Отделение №6 (до 30 кг): ул. Шевченко, 46
+                    [ShortAddress] => Чернігів, Шевченка, 46
+                    [ShortAddressRu] => Чернигов, Шевченко, 46
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 1ec09dcb-e1c2-11e3-8c4a-0050568002cf
+                    [Number] => 6
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.321860551834000
+                    [Latitude] => 51.501316388926000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 12:00-20:00
+                            [Tuesday] => 12:00-20:00
+                            [Wednesday] => 12:00-20:00
+                            [Thursday] => 12:00-20:00
+                            [Friday] => 12:00-20:00
+                            [Saturday] => 12:00-17:00
+                            [Sunday] => 12:15-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:25
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ6
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2013-01-21 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [6] => Array
+                (
+                    [SiteKey] => 10171
+                    [Description] => Відділення №7 (до 30 кг): просп. Миру, 50
+                    [DescriptionRu] => Отделение №7 (до 30 кг): просп. Мира, 50
+                    [ShortAddress] => Чернігів, Миру, 50
+                    [ShortAddressRu] => Чернигов, Мира, 50
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 39931b8b-e1c2-11e3-8c4a-0050568002cf
+                    [Number] => 7
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.285034000000000
+                    [Latitude] => 51.499752000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 11:00-20:00
+                            [Tuesday] => 11:00-20:00
+                            [Wednesday] => 11:00-20:00
+                            [Thursday] => 11:00-20:00
+                            [Friday] => 11:00-20:00
+                            [Saturday] => 11:00-17:00
+                            [Sunday] => 13:05-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-16:00
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ7
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2019-08-21 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [7] => Array
+                (
+                    [SiteKey] => 10327
+                    [Description] => Відділення №8 (до 30 кг на одне місце): вул. Пухова, 142
+                    [DescriptionRu] => Отделение №8 (до 30 кг на одно место): ул. Пухова, 142
+                    [ShortAddress] => Чернігів, Пухова, 142
+                    [ShortAddressRu] => Чернигов, Пухова, 142
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 7b422fab-e1b8-11e3-8c4a-0050568002cf
+                    [Number] => 8
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.327308000000000
+                    [Latitude] => 51.522838000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 0
+                    [PlaceMaxWeightAllowed] => 30
+                    [Reception] => Array
+                        (
+                            [Monday] => 12:00-20:00
+                            [Tuesday] => 12:00-20:00
+                            [Wednesday] => 12:00-20:00
+                            [Thursday] => 12:00-20:00
+                            [Friday] => 12:00-20:00
+                            [Saturday] => 12:00-17:00
+                            [Sunday] => 11:40-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:00
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ8
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2013-12-16 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [8] => Array
+                (
+                    [SiteKey] => 10918
+                    [Description] => Відділення №9 (до 30 кг): вул. Красносільського, 59а
+                    [DescriptionRu] => Отделение №9 (до 30 кг): ул. Красносельского, 59а
+                    [ShortAddress] => Чернігів, Красносільського, 59а
+                    [ShortAddressRu] => Чернигов, Красносельского, 59а
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 6ea56bbd-f859-11e3-8c4a-0050568002cf
+                    [Number] => 9
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.238222000000000
+                    [Latitude] => 51.517000000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 10:59-20:00
+                            [Tuesday] => 10:59-20:00
+                            [Wednesday] => 10:59-20:00
+                            [Thursday] => 10:59-20:00
+                            [Friday] => 10:59-20:00
+                            [Saturday] => 10:59-17:00
+                            [Sunday] => 12:40-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:45
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ9
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2017-11-03 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [9] => Array
+                (
+                    [SiteKey] => 11311
+                    [Description] => Відділення №10 (до 30 кг): вул. Івана Мазепи, 48
+                    [DescriptionRu] => Отделение №10 (до 30 кг): ул. Ивана Мазепы, 48
+                    [ShortAddress] => Чернігів, Івана Мазепи, 48
+                    [ShortAddressRu] => Чернигов, Ивана Мазепы, 48
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 8a09d145-1c7a-11e4-acce-0050568002cf
+                    [Number] => 10
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.273065370000000
+                    [Latitude] => 51.483400850000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 11:00-19:00
+                            [Tuesday] => 11:00-19:00
+                            [Wednesday] => 11:00-19:00
+                            [Thursday] => 11:00-19:00
+                            [Friday] => 11:00-19:00
+                            [Saturday] => 11:00-17:00
+                            [Sunday] => 13:00-16:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-16:00
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 09:00-19:00
+                            [Tuesday] => 09:00-19:00
+                            [Wednesday] => 09:00-19:00
+                            [Thursday] => 09:00-19:00
+                            [Friday] => 09:00-19:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-16:00
+                        )
+
+                    [DistrictCode] => СКЛ10
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2018-06-26 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [10] => Array
+                (
+                    [SiteKey] => 11366
+                    [Description] => Відділення №11 (до 5 кг): вул. Музична, 1, корп. 1, пов. 2(ТЦ «Рояль»)БЕЗ ГОТІВКИ
+                    [DescriptionRu] => Отделение №11 (до 5 кг): ул. Музыкальная, 1, корп. 1, эт. 2(ТЦ «Рояль»)БЕЗ НАЛИЧНЫХ
+                    [ShortAddress] => Чернігів, Музична, 1, корп. 1, пов. 2 (ТЦ «Рояль»)
+                    [ShortAddressRu] => Чернигов, Музыкальная, 1, корп. 1, эт. 2(ТЦ «Рояль»)БЕЗ НАЛИЧНЫХ
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => b6637d9d-bd8f-11e4-a77a-005056887b8d
+                    [Number] => 11
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.272365000000000
+                    [Latitude] => 51.478878000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 5
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 10:30-20:00
+                            [Tuesday] => 10:30-20:00
+                            [Wednesday] => 10:30-20:00
+                            [Thursday] => 10:30-20:00
+                            [Friday] => 10:30-20:00
+                            [Saturday] => 10:30-17:00
+                            [Sunday] => 11:30-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 10:00-15:30
+                            [Tuesday] => 10:00-15:30
+                            [Wednesday] => 10:00-15:30
+                            [Thursday] => 10:00-15:30
+                            [Friday] => 10:00-15:30
+                            [Saturday] => 10:00-15:00
+                            [Sunday] => 11:00-15:00
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 10:00-20:00
+                            [Tuesday] => 10:00-20:00
+                            [Wednesday] => 10:00-20:00
+                            [Thursday] => 10:00-20:00
+                            [Friday] => 10:00-20:00
+                            [Saturday] => 10:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ11
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-05-22 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [11] => Array
+                (
+                    [SiteKey] => 13025
+                    [Description] => Відділення №13 (до 30 кг): просп. Миру, 49 (ЦУМ Чернігів)
+                    [DescriptionRu] => Отделение №13 (до 30 кг): просп. Мира, 49 (ЦУМ Чернигов)
+                    [ShortAddress] => Чернігів, Миру, 49 (ЦУМ Чернігів)
+                    [ShortAddressRu] => Чернигов, Мира, 49 (ЦУМ Чернигов)
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 709892d0-0ac8-11e5-8a92-005056887b8d
+                    [Number] => 13
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.289299126984000
+                    [Latitude] => 51.499069889074000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 11:30-20:00
+                            [Tuesday] => 11:30-20:00
+                            [Wednesday] => 11:30-20:00
+                            [Thursday] => 11:30-20:00
+                            [Friday] => 11:30-20:00
+                            [Saturday] => 11:30-18:00
+                            [Sunday] => 12:00-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 10:00-15:00
+                            [Tuesday] => 10:00-15:00
+                            [Wednesday] => 10:00-15:00
+                            [Thursday] => 10:00-15:00
+                            [Friday] => 10:00-15:00
+                            [Saturday] => 10:00-15:00
+                            [Sunday] => 11:00-15:20
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 10:00-20:00
+                            [Tuesday] => 10:00-20:00
+                            [Wednesday] => 10:00-20:00
+                            [Thursday] => 10:00-20:00
+                            [Friday] => 10:00-20:00
+                            [Saturday] => 10:00-18:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ13
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2016-04-11 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [12] => Array
+                (
+                    [SiteKey] => 24031
+                    [Description] => Відділення №14 (до 30 кг на одне місце): вул. Старобілоуська,16а
+                    [DescriptionRu] => Отделение №14 (до 30 кг на одно место): ул. Старобелоуская, 16А
+                    [ShortAddress] => Чернігів, Старобілоуська, 16а
+                    [ShortAddressRu] => Чернигов, Старобелоуская, 16а
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 8f7981be-34fb-11e5-add9-005056887b8d
+                    [Number] => 14
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.263788500000000
+                    [Latitude] => 51.495493290900000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 0
+                    [PlaceMaxWeightAllowed] => 30
+                    [Reception] => Array
+                        (
+                            [Monday] => 11:00-20:00
+                            [Tuesday] => 11:00-20:00
+                            [Wednesday] => 11:00-20:00
+                            [Thursday] => 11:00-20:00
+                            [Friday] => 11:00-20:00
+                            [Saturday] => 11:00-17:00
+                            [Sunday] => -
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-16:00
+                            [Tuesday] => 09:00-16:00
+                            [Wednesday] => 09:00-16:00
+                            [Thursday] => 09:00-16:00
+                            [Friday] => 09:00-16:00
+                            [Saturday] => 09:00-16:00
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ14
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2015-12-14 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [13] => Array
+                (
+                    [SiteKey] => 13399
+                    [Description] => Відділення №15 (до 30 кг): вул. Мстиславська, 25
+                    [DescriptionRu] => Отделение №15 (до 30 кг): ул. Мстиславская, 25
+                    [ShortAddress] => Чернігів, Мстиславська, 25
+                    [ShortAddressRu] => Чернигов, Мстиславская, 25
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 5622dbb2-57b4-11e5-8d8d-005056887b8d
+                    [Number] => 15
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.299802000000000
+                    [Latitude] => 51.496194572409000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 10:59-20:00
+                            [Tuesday] => 10:59-20:00
+                            [Wednesday] => 10:59-20:00
+                            [Thursday] => 10:59-20:00
+                            [Friday] => 10:59-20:00
+                            [Saturday] => 10:59-17:00
+                            [Sunday] => 11:30-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:00
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ15
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2016-10-31 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [14] => Array
+                (
+                    [SiteKey] => 13837
+                    [Description] => Відділення №16 (до 30 кг): просп. Миру, 194, корп. 4
+                    [DescriptionRu] => Отделение №16 (до 30 кг): просп. Мира, 194, корп. 4
+                    [ShortAddress] => Чернігів, Миру, 194, корп. 4
+                    [ShortAddressRu] => Чернигов, Мира, 194, корп. 4
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => 64675206-42ab-11e6-a9f2-005056887b8d
+                    [Number] => 16
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.271305683300000
+                    [Latitude] => 51.521389464300000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 09:00-20:00
+                            [Tuesday] => 09:00-20:00
+                            [Wednesday] => 09:00-20:00
+                            [Thursday] => 09:00-20:00
+                            [Friday] => 09:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:00
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ16
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2018-07-18 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [15] => Array
+                (
+                    [SiteKey] => 15518
+                    [Description] => Відділення №17: вул. Дніпровська, 34
+                    [DescriptionRu] => Отделение №17: ул. Днепровская, 34
+                    [ShortAddress] => Чернігів, Дніпровська, 34
+                    [ShortAddressRu] => Чернигов, Днепровская, 34
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 9a68df70-0267-42a8-bb5c-37f427e36ee4
+                    [Ref] => d39de4d6-ba49-11e8-ad0d-005056b24375
+                    [Number] => 17
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.249385000000000
+                    [Latitude] => 51.491467000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 0
+                    [PlaceMaxWeightAllowed] => 1100
+                    [Reception] => Array
+                        (
+                            [Monday] => 10:59-20:00
+                            [Tuesday] => 10:59-20:00
+                            [Wednesday] => 10:59-20:00
+                            [Thursday] => 10:59-20:00
+                            [Friday] => 10:59-20:00
+                            [Saturday] => 10:59-17:00
+                            [Sunday] => 12:00-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:00
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ17
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2019-01-17 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [16] => Array
+                (
+                    [SiteKey] => 16032
+                    [Description] => Відділення №19 (до 30 кг): вул. Всіхсвятська, 5
+                    [DescriptionRu] => Отделение №19 (до 30 кг): ул. Всехсвятская, 5
+                    [ShortAddress] => Чернігів, Всіхсвятська, 5
+                    [ShortAddressRu] => Чернигов, Всехсвятская, 5
+                    [Phone] => 380800500609
+                    [TypeOfWarehouse] => 841339c7-591a-42e2-8233-7a0a00f0ed6f
+                    [Ref] => eab850c8-2ba0-11e9-acea-005056b24375
+                    [Number] => 19
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.330410000000000
+                    [Latitude] => 51.514528000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 0
+                    [POSTerminal] => 1
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 1
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 11:15-20:00
+                            [Tuesday] => 11:15-20:00
+                            [Wednesday] => 11:15-20:00
+                            [Thursday] => 11:15-20:00
+                            [Friday] => 11:15-20:00
+                            [Saturday] => 11:15-17:00
+                            [Sunday] => 11:30-17:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => 09:00-15:00
+                            [Tuesday] => 09:00-15:00
+                            [Wednesday] => 09:00-15:00
+                            [Thursday] => 09:00-15:00
+                            [Friday] => 09:00-15:00
+                            [Saturday] => 09:00-15:00
+                            [Sunday] => 11:00-15:00
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 08:00-20:00
+                            [Tuesday] => 08:00-20:00
+                            [Wednesday] => 08:00-20:00
+                            [Thursday] => 08:00-20:00
+                            [Friday] => 08:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-17:00
+                        )
+
+                    [DistrictCode] => СКЛ19
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2019-04-26 00:00:00
+                    [CategoryOfWarehouse] => Branch
+                    [Direct] => 
+                )
+
+            [17] => Array
+                (
+                    [SiteKey] => 16473
+                    [Description] => Поштомат "Нова Пошта" №3412: вул. Дмитра Самоквасова, 12а (маг. Квартал)
+                    [DescriptionRu] => Почтомат "Новая Пошта" №3412: ул. Дмитрия Самоквасова, 12а (маг. Квартал)
+                    [ShortAddress] => Чернігів, Самоквасова, 12а (маг. Квартал)
+                    [ShortAddressRu] => Чернигов, Самоквасова, 12а (маг. Квартал)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => 0ad99d39-61a1-11e9-898c-005056b24375
+                    [Number] => 3412
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.258380000000000
+                    [Latitude] => 51.480870000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 09:00-20:00
+                            [Tuesday] => 09:00-20:00
+                            [Wednesday] => 09:00-20:00
+                            [Thursday] => 09:00-20:00
+                            [Friday] => 09:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-16:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 07:00-22:00
+                            [Tuesday] => 07:00-22:00
+                            [Wednesday] => 07:00-22:00
+                            [Thursday] => 07:00-22:00
+                            [Friday] => 07:00-22:00
+                            [Saturday] => 07:00-22:00
+                            [Sunday] => 07:00-22:00
+                        )
+
+                    [DistrictCode] => П_3412
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-08-02 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                )
+
+            [18] => Array
+                (
+                    [SiteKey] => 16474
+                    [Description] => Поштомат "Нова Пошта" №3413: вул. Доценко, 19 (маг. Союз)
+                    [DescriptionRu] => Почтомат "Новая Пошта" №3413: ул. Доценко, 19 (маг. Союз)
+                    [ShortAddress] => Чернігів, Доценко, 19 (маг. Союз)
+                    [ShortAddressRu] => Чернигов, Доценко, 19 (маг. Союз)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => a17c8488-61a4-11e9-898c-005056b24375
+                    [Number] => 3413
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.326430000000000
+                    [Latitude] => 51.519060000000000
+                    [PostFinance] => 1
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => 09:00-20:00
+                            [Tuesday] => 09:00-20:00
+                            [Wednesday] => 09:00-20:00
+                            [Thursday] => 09:00-20:00
+                            [Friday] => 09:00-20:00
+                            [Saturday] => 09:00-17:00
+                            [Sunday] => 11:00-16:00
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 07:00-23:00
+                            [Tuesday] => 07:00-23:00
+                            [Wednesday] => 07:00-23:00
+                            [Thursday] => 07:00-23:00
+                            [Friday] => 07:00-23:00
+                            [Saturday] => 07:00-23:00
+                            [Sunday] => 07:00-23:00
+                        )
+
+                    [DistrictCode] => Я01/406
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-04-09 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                )
+
+            [19] => Array
+                (
+                    [SiteKey] => 25546
+                    [Description] => Поштомат "Нова Пошта" №3574: вул. Рокоссовського, 4 (Академія смаку)
+                    [DescriptionRu] => Почтомат "Новая Пошта" №3574: ул. Рокоссовського, 4 (Академия вкуса)
+                    [ShortAddress] => Чернігів, Рокоссовського, 4 (Академія смаку)
+                    [ShortAddressRu] => Чернигов, Рокоссовського, 4 (Академия вкуса)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => 21b3cda4-7a67-11ea-91e8-b8830365bd14
+                    [Number] => 3574
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.333860000000000
+                    [Latitude] => 51.506960000000000
+                    [PostFinance] => 0
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 09:00-20:00
+                            [Tuesday] => 09:00-20:00
+                            [Wednesday] => 09:00-20:00
+                            [Thursday] => 09:00-20:00
+                            [Friday] => 09:00-20:00
+                            [Saturday] => 09:00-20:00
+                            [Sunday] => 09:00-20:00
+                        )
+
+                    [DistrictCode] => П_3574
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-05-02 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                )
+
+            [20] => Array
+                (
+                    [SiteKey] => 27958
+                    [Description] => Поштомат "Нова Пошта" №5173: вул. Ринкова, 10 (маг. АТБ)
+                    [DescriptionRu] => Почтомат "Новая Почта" №5173: ул. Рыночная, 10 (маг. АТБ)
+                    [ShortAddress] => Чернігів, Ринкова, 10 (маг. АТБ)
+                    [ShortAddressRu] => Чернигов, Рыночная, 10 (маг. АТБ)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => 37a78fdf-d230-11ea-b39d-b8830365bd14
+                    [Number] => 5173
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.290758000000000
+                    [Latitude] => 51.492374000000000
+                    [PostFinance] => 0
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 00:01-23:59
+                            [Tuesday] => 00:01-23:59
+                            [Wednesday] => 00:01-23:59
+                            [Thursday] => 00:01-23:59
+                            [Friday] => 00:01-23:59
+                            [Saturday] => 00:01-23:59
+                            [Sunday] => 00:01-23:59
+                        )
+
+                    [DistrictCode] => П5173
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-08-21 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                    [PostomatFor] => Sender
+                )
+
+            [21] => Array
+                (
+                    [SiteKey] => 28870
+                    [Description] => Поштомат "Нова Пошта" №5280: вул. Рокосовського, 15 (маг. АТБ)
+                    [DescriptionRu] => Почтомат "Новая Почта" №5280: ул. Рокосовского, 15 (маг. АТБ)
+                    [ShortAddress] => Чернігів, Рокосовського, 15 (маг. АТБ)
+                    [ShortAddressRu] => Чернигов, Рокосовского, 15 (маг. АТБ)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => 2aaf8293-e877-11ea-b39d-b8830365bd14
+                    [Number] => 5280
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.330524000000000
+                    [Latitude] => 51.508301000000000
+                    [PostFinance] => 0
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 00:01-23:59
+                            [Tuesday] => 00:01-23:59
+                            [Wednesday] => 00:01-23:59
+                            [Thursday] => 00:01-23:59
+                            [Friday] => 00:01-23:59
+                            [Saturday] => 00:01-23:59
+                            [Sunday] => 00:01-23:59
+                        )
+
+                    [DistrictCode] => П5280
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-08-31 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                    [PostomatFor] => Sender
+                )
+
+            [22] => Array
+                (
+                    [SiteKey] => 28864
+                    [Description] => Поштомат "Нова Пошта" №5286: вул. В'ячеслава Чорновола, 11а (маг. АТБ)
+                    [DescriptionRu] => Почтомат "Новая Почта" №5286: ул. Вячеслава Черновола, 11а (маг. АТБ)
+                    [ShortAddress] => Чернігів, В'ячеслава Чорновола, 11а (маг. АТБ)
+                    [ShortAddressRu] => Чернигов, Вячеслава Черновола, 11а (маг. АТБ)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => 99134768-e876-11ea-b39d-b8830365bd14
+                    [Number] => 5286
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.281272000000000
+                    [Latitude] => 51.500882000000000
+                    [PostFinance] => 0
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 00:01-23:59
+                            [Tuesday] => 00:01-23:59
+                            [Wednesday] => 00:01-23:59
+                            [Thursday] => 00:01-23:59
+                            [Friday] => 00:01-23:59
+                            [Saturday] => 00:01-23:59
+                            [Sunday] => 00:01-23:59
+                        )
+
+                    [DistrictCode] => 
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-08-31 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                    [PostomatFor] => Sender
+                )
+
+            [23] => Array
+                (
+                    [SiteKey] => 28865
+                    [Description] => Поштомат "Нова Пошта" №5292: просп. Перемоги, 3б (маг. АТБ)
+                    [DescriptionRu] => Почтомат "Новая Почта" №5292: просп. Победы, 3б (маг. АТБ)
+                    [ShortAddress] => Чернігів, Перемоги, 3б (маг. АТБ)
+                    [ShortAddressRu] => Чернигов, Победы, 3б (маг. АТБ)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => bd850976-e876-11ea-b39d-b8830365bd14
+                    [Number] => 5292
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.269069000000000
+                    [Latitude] => 51.485522000000000
+                    [PostFinance] => 0
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 00:01-23:59
+                            [Tuesday] => 00:01-23:59
+                            [Wednesday] => 00:01-23:59
+                            [Thursday] => 00:01-23:59
+                            [Friday] => 00:01-23:59
+                            [Saturday] => 00:01-23:59
+                            [Sunday] => 00:01-23:59
+                        )
+
+                    [DistrictCode] => 
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-08-31 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                    [PostomatFor] => Sender
+                )
+
+            [24] => Array
+                (
+                    [SiteKey] => 28866
+                    [Description] => Поштомат "Нова Пошта" №5293: вул. Незалежності, 10 (маг. АТБ)
+                    [DescriptionRu] => Почтомат "Новая Почта" №5293: ул. Независимости, 10 (маг. АТБ)
+                    [ShortAddress] => Чернігів, Незалежності, 10 (маг. АТБ)
+                    [ShortAddressRu] => Чернигов, Независимости, 10 (маг. АТБ)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => e208ce4e-e876-11ea-b39d-b8830365bd14
+                    [Number] => 5293
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.240556000000000
+                    [Latitude] => 51.517143000000000
+                    [PostFinance] => 0
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 00:01-23:59
+                            [Tuesday] => 00:01-23:59
+                            [Wednesday] => 00:01-23:59
+                            [Thursday] => 00:01-23:59
+                            [Friday] => 00:01-23:59
+                            [Saturday] => 00:01-23:59
+                            [Sunday] => 00:01-23:59
+                        )
+
+                    [DistrictCode] => 
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-08-31 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                    [PostomatFor] => Sender
+                )
+
+            [25] => Array
+                (
+                    [SiteKey] => 28867
+                    [Description] => Поштомат "Нова Пошта" №5300: вул. Льотна, 6а (маг. АТБ)
+                    [DescriptionRu] => Почтомат "Новая Почта" №5300: ул. Летная, 6а (маг. АТБ)
+                    [ShortAddress] => Чернігів, Льотна, 6а (маг. АТБ)
+                    [ShortAddressRu] => Чернигов, Летная, 6а (маг. АТБ)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => e20e8c40-e876-11ea-b39d-b8830365bd14
+                    [Number] => 5300
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.280235000000000
+                    [Latitude] => 51.516736000000000
+                    [PostFinance] => 0
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 00:01-23:59
+                            [Tuesday] => 00:01-23:59
+                            [Wednesday] => 00:01-23:59
+                            [Thursday] => 00:01-23:59
+                            [Friday] => 00:01-23:59
+                            [Saturday] => 00:01-23:59
+                            [Sunday] => 00:01-23:59
+                        )
+
+                    [DistrictCode] => 
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-08-31 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                    [PostomatFor] => Sender
+                )
+
+            [26] => Array
+                (
+                    [SiteKey] => 28868
+                    [Description] => Поштомат "Нова Пошта" №5301: вул. Гагаріна, 21 (маг. АТБ)
+                    [DescriptionRu] => Почтомат "Новая Почта" №5301: ул. Гагарина, 21 (маг. АТБ)
+                    [ShortAddress] => Чернігів, Гагаріна, 21 (маг. АТБ)
+                    [ShortAddressRu] => Чернигов, Гагарина, 21 (маг. АТБ)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => 06205c1f-e877-11ea-b39d-b8830365bd14
+                    [Number] => 5301
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.249840000000000
+                    [Latitude] => 51.498414000000000
+                    [PostFinance] => 0
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 00:01-23:59
+                            [Tuesday] => 00:01-23:59
+                            [Wednesday] => 00:01-23:59
+                            [Thursday] => 00:01-23:59
+                            [Friday] => 00:01-23:59
+                            [Saturday] => 00:01-23:59
+                            [Sunday] => 00:01-23:59
+                        )
+
+                    [DistrictCode] => 
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-08-31 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                    [PostomatFor] => Sender
+                )
+
+            [27] => Array
+                (
+                    [SiteKey] => 28869
+                    [Description] => Поштомат "Нова Пошта" №5303: вул. Козацька, 20а (маг. АТБ)
+                    [DescriptionRu] => Почтомат "Новая Почта" №5303: ул. Козаческая, 20а (маг. АТБ)
+                    [ShortAddress] => Чернігів, Козацька, 20а (маг. АТБ)
+                    [ShortAddressRu] => Чернигов, Козаческая, 20а (маг. АТБ)
+                    [Phone] => 
+                    [TypeOfWarehouse] => f9316480-5f2d-425d-bc2c-ac7cd29decf0
+                    [Ref] => 2aa83cd5-e877-11ea-b39d-b8830365bd14
+                    [Number] => 5303
+                    [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+                    [CityDescription] => Чернігів
+                    [CityDescriptionRu] => Чернигов
+                    [SettlementRef] => e71feb5c-4b33-11e4-ab6d-005056801329
+                    [SettlementDescription] => Чернігів
+                    [SettlementAreaDescription] => Чернігівська область
+                    [SettlementRegionsDescription] => 
+                    [SettlementTypeDescription] => місто
+                    [Longitude] => 31.268270000000000
+                    [Latitude] => 51.512767000000000
+                    [PostFinance] => 0
+                    [BicycleParking] => 0
+                    [PaymentAccess] => 1
+                    [POSTerminal] => 0
+                    [InternationalShipping] => 0
+                    [SelfServiceWorkplacesCount] => 0
+                    [TotalMaxWeightAllowed] => 30
+                    [PlaceMaxWeightAllowed] => 0
+                    [Reception] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Delivery] => Array
+                        (
+                            [Monday] => -
+                            [Tuesday] => -
+                            [Wednesday] => -
+                            [Thursday] => -
+                            [Friday] => -
+                            [Saturday] => -
+                            [Sunday] => -
+                        )
+
+                    [Schedule] => Array
+                        (
+                            [Monday] => 00:01-23:59
+                            [Tuesday] => 00:01-23:59
+                            [Wednesday] => 00:01-23:59
+                            [Thursday] => 00:01-23:59
+                            [Friday] => 00:01-23:59
+                            [Saturday] => 00:01-23:59
+                            [Sunday] => 00:01-23:59
+                        )
+
+                    [DistrictCode] => П5303
+                    [WarehouseStatus] => Working
+                    [WarehouseStatusDate] => 2020-08-31 00:00:00
+                    [CategoryOfWarehouse] => Postomat
+                    [Direct] => 
+                    [PostomatFor] => Sender
+                )
+
+        )
+
+    [errors] => Array
+        (
+        )
+
+    [warnings] => Array
+        (
+        )
+
+    [info] => Array
+        (
+            [totalCount] => 28
+        )
+
+    [messageCodes] => Array
+        (
+        )
+
+    [errorCodes] => Array
+        (
+        )
+
+    [warningCodes] => Array
+        (
+        )
+
+    [infoCodes] => Array
+        (
+        )
+
+)
