@@ -10,7 +10,13 @@
     <div class="form-group">
         <label for="np-sender-ref">Sender ref</label>
         <input type="text" class="form-control" name="np-sender-ref"
-               id="np-sender-ref" readonly placeholder="" value = "{$senderRef}">
+               id="np-sender-ref" readonly placeholder="" value = "{$senderRef.sender_ref}">
+    </div>
+
+    <div class="form-group">
+        <label for="np-SendersPhonef">SendersPhone</label>
+        <input type="number" class="form-control" name="sender_phone"
+               id="np-SendersPhone" placeholder="" value = "{$senderRef.sender_phone}">
     </div>
 
 

@@ -17,7 +17,7 @@
 
         function getSetting(){
             $sth = $this->pdo->prepare(
-                "SELECT api_key, sender_ref, warehouse_ref, city_ref 
+                "SELECT *
                     FROM setting LIMIT 1");
             $sth->execute();
             if ($sth->rowCount())
@@ -40,7 +40,6 @@
             $sth->execute();
             return $sth->fetchAll();
         }
-
 
         function getCities($city_ref){
             $sth = $this->pdo->prepare(
@@ -87,6 +86,31 @@
             $sth->execute();
             $row = $sth->fetch();
             return $row['api_key'];
+        }
+
+        function getReestr(){
+            $sth = $this->pdo->prepare(
+                "SELECT * FROM waybills ORDER BY entered_date desc");
+            $sth->execute();
+            return $sth->fetchAll();
+        }
+
+        function saveTtn($data) {
+            $sql = "INSERT INTO waybills(ref,cost_on_site, estimated_deliveryDate,int_doc_number,
+    type_document,	entered_date) VALUES(?,?, STR_TO_DATE(?, '%d.%m.%Y'),?,?, NOW())";
+            $sth = $this->pdo
+                ->prepare($sql
+                    );
+//            print_r($data);
+//            echo $sql;
+
+            $sth->execute([
+                $data['Ref'],
+                $data['CostOnSite'],
+                $data['EstimatedDeliveryDate'],
+                $data['IntDocNumber'],
+                $data['TypeDocument'],
+                ]);
         }
 
     }

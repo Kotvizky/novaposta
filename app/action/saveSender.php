@@ -1,7 +1,9 @@
 <?php
 
-print_r($_GET);
 updateSetting($_GET);
+header("Location: http://". $_SERVER['HTTP_HOST'] ."/index.php?sender");
+print_r($_GET);
+
 
 function connect(){
     $servername = "localhost";
@@ -22,13 +24,14 @@ function updateSetting($data){
 
     $pdo = connect();
 
-    $sql = "update setting set api_key = ?, warehouse_ref = ? , city_ref = ?";
+    $sql = "update setting set api_key = ?, warehouse_ref = ? , city_ref = ?, sender_phone = ?";
     $stmt = $pdo->prepare($sql);
 
         $stmt->execute([
             $data['np-key'],
             $data['np-warehouse'],
             $data['np-city'],
+            $data['sender_phone'],
         ]);
 
 }

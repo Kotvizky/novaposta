@@ -8,8 +8,8 @@ require 'model.php';
 
 
 $smarty = new Smarty;
-//$smarty->force_compile = true;
-// $smarty->debugging = true;
+$smarty->force_compile = true;
+$smarty->debugging = true;
 $smarty->caching = false;
 $smarty->cache_lifetime = 120;
 $smarty->setTemplateDir( __DIR__ . '/tpl');
@@ -17,10 +17,10 @@ $smarty->setTemplateDir('./app/tpl');
 
 $smarty->assign('navbar',[
     ['name' => 'регионы',       'param'=>'index.php?regions'],
-    ['name' => 'склады',        'param'=>'index.php?warehouses'],
+//    ['name' => 'склады',        'param'=>'index.php?warehouses'],
     ['name' => 'отправитель',   'param'=>'index.php?sender'],
     ['name' => 'зарегистрировать ТТН',   'param'=>'index.php?newTtn'],
-    ['name' => 'печать',         'param'=>'index.php?print'],
+    ['name' => 'реестр ТТН',   'param'=>'index.php?reestr'],
     ['name' => 'заполнить города',         'param'=>'index.php?updateCities'],
 ]);
 
@@ -33,9 +33,53 @@ if ($_GET) {
 
 $smarty->display('index.tpl');
 
+
+function reestr(){
+    $model = new Model();
+    $reestr = $model->getReestr();
+        printContent([
+            'reestr' => $reestr,
+            'api_key' =>$model->getApiKey(),
+        ],'reestr.tpl');
+}
+
 function newTtn(){
 
-    printContent(['content' => ''],'newTtn.tpl');
+    $model = new Model();
+
+    $areas = $model->getAreas();
+
+    $Recipient = [
+        'FirstName' => ['Сидор'],
+        'MiddleName' => ['Сидорович','text'],
+        'LastName' => ['Сиродов','text'],
+        'Phone' => ['0509998877','text'],
+        'Warehouse' => 'Warehouse',
+
+    ];
+
+
+    $properties =
+    [
+        'DateTime' => [date('Y-m-d', time() + 1 * 84600),'date'],
+        'ServiceType' => ['WarehouseWarehouse','text'],
+        'PaymentMethod' => ['Cash','select',['Cash','NonCash']],
+        'PayerType' => ['Recipient','select',['Sender','Recipient','ThirdPerson']],
+        'Cost' => ['500','text'],
+        'SeatsAmount' => ['1','text'],
+        'Description' => ['Спутник','text'],
+        'CargoType' => ['Cargo','text'],
+        'Weight' => ['10','number', 'min="0" max="1000" step="0.1" '],
+        'VolumeGeneral' => ['1','number', 'min="0" max="1000" step="0.1" '],
+
+    ];
+
+    printContent([
+        'recipient' => $Recipient,
+        'properties' => $properties,
+        'areas' => $areas,
+        'setting' => $model->getSetting(),
+        ],'newTtn.tpl');
 }
 
 function sender(){
@@ -48,13 +92,13 @@ function sender(){
     $cityArea ='';
     $cityRef ='';
     $warehouseRef ='';
+    $areas = $model->getAreas();
 
     $setting = $model->getSetting();
     if ($setting) {
         if (isset($setting['city_ref'])) $cityRef = $setting['city_ref'];
         if (isset($setting['warehouse_ref'])) $warehouseRef = $setting['warehouse_ref'];
         if ($setting['city_ref']!= '') {
-            $areas = $model->getAreas();
             $cityArea = $model->getCityArea($cityRef);
             $cities = $model->getCities($cityArea);
             $warehouses = $model->getWarehouses($cityRef);
@@ -69,7 +113,7 @@ function sender(){
         'warehouseRef' => $warehouseRef,
         'cities' => $cities,
         'warehouses' => $warehouses,
-        'senderRef' => $setting['sender_ref'],
+        'senderRef' => $setting,
     ],'senderForm.tpl');
 
 }
