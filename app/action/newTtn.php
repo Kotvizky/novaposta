@@ -31,9 +31,12 @@ $model = new Model();
 //print_r($_GET);
 
 
+
 $ttn = $model->np->newInternetDocument($sender, $receiver, $params);
 
 //print_r($ttn);
+//
+//die();
 
 if ($ttn['success']  = 1){
     //print_r($ttn);
@@ -42,8 +45,6 @@ if ($ttn['success']  = 1){
     header("Location: http://". $_SERVER['HTTP_HOST'] ."/index.php?reestr");
 
 }
-
-return;
 
 
     $ttn = $model->np->newInternetDocument(

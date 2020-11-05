@@ -13,11 +13,9 @@
     </tr>
     </thead>
     {foreach from=$reestr item=foo}
-
-
         </th>
         <tr>
-            <td>{$foo.ref}</td>
+            <td><a href="app/action/getTrackNumber.php?number={$foo.int_doc_number}"  target="_blank">{$foo.ref}</a></td>
             <td>{$foo.cost_on_site}</td>
             <td>{$foo.estimated_deliveryDate}</td>
             <td><a href="https://my.novaposhta.ua/orders/printDocument/orders/{$foo.int_doc_number}/type/pdf/apiKey/{$api_key}" target="_blank">{$foo.int_doc_number}<a></td>
