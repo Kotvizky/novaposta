@@ -249,6 +249,7 @@ class NovaPoshtaApi2
         $post = 'xml' == $this->format
             ? $this->array2xml($data)
             : json_encode($data);
+        file_put_contents('log.txt',print_r($data,1));
 
         if ('curl' == $this->getConnectionType()) {
             $ch = curl_init($url);
@@ -947,7 +948,7 @@ class NovaPoshtaApi2
     public function newInternetDocument($sender, $recipient, $params)
     {
         // Check for required params and set defaults
-        $this->checkInternetDocumentRecipient($recipient);
+        //$this->checkInternetDocumentRecipient($recipient);
         $this->checkInternetDocumentParams($params);
         if (empty($sender['CitySender'])) {
             $senderCity = $this->getCity($sender['City'], $sender['Region'], $sender['Warehouse']);
@@ -978,22 +979,31 @@ class NovaPoshtaApi2
         }
 
         // Prepare recipient data
-        $recipient['CounterpartyProperty'] = 'Recipient';
-        $recipient['RecipientsPhone'] = $recipient['Phone'];
-        if (empty($recipient['CityRecipient'])) {
-            $recipientCity = $this->getCity($recipient['City'], $recipient['Region'], $recipient['Warehouse']);
-            $recipient['CityRecipient'] = $recipientCity['data'][0]['Ref'];
+        if ($params['ServiceType'] == 'WarehouseWarehouse') {
+
+            $recipient['CounterpartyProperty'] = 'Recipient';
+            $recipient['RecipientsPhone'] = $recipient['Phone'];
+
+            if (empty($recipient['CityRecipient'])) {
+                $recipientCity = $this->getCity($recipient['City'], $recipient['Region'], $recipient['Warehouse']);
+                $recipient['CityRecipient'] = $recipientCity['data'][0]['Ref'];
+            }
+
+
+            $recipient['CityRef'] = $recipient['CityRecipient'];
+            if (empty($recipient['RecipientAddress'])) {
+                $recipientWarehouse = $this->getWarehouse($recipient['CityRecipient'], $recipient['Warehouse']);
+                $recipient['RecipientAddress'] = $recipientWarehouse['data'][0]['Ref'];
+            }
+
+            if (empty($recipient['Recipient'])) {
+                $recipientCounterparty = $this->model('Counterparty')->save($recipient);
+                $recipient['Recipient'] = $recipientCounterparty['data'][0]['Ref'];
+                $recipient['ContactRecipient'] = $recipientCounterparty['data'][0]['ContactPerson']['data'][0]['Ref'];
+            }
+
         }
-        $recipient['CityRef'] = $recipient['CityRecipient'];
-        if (empty($recipient['RecipientAddress'])) {
-            $recipientWarehouse = $this->getWarehouse($recipient['CityRecipient'], $recipient['Warehouse']);
-            $recipient['RecipientAddress'] = $recipientWarehouse['data'][0]['Ref'];
-        }
-        if (empty($recipient['Recipient'])) {
-            $recipientCounterparty = $this->model('Counterparty')->save($recipient);
-            $recipient['Recipient'] = $recipientCounterparty['data'][0]['Ref'];
-            $recipient['ContactRecipient'] = $recipientCounterparty['data'][0]['ContactPerson']['data'][0]['Ref'];
-        }
+
         // Full params is merge of arrays $sender, $recipient, $params
         $paramsInternetDocument = array_merge($sender, $recipient, $params);
         // Creating new Internet Document

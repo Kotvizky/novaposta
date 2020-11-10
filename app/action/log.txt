@@ -1,0 +1,43 @@
+Array
+(
+    [apiKey] => 55c0aa75c51e16a59e32dca538ed7919
+    [modelName] => InternetDocument
+    [calledMethod] => save
+    [language] => ru
+    [methodProperties] => Array
+        (
+            [CitySender] => db5c897c-391c-11dd-90d9-001a92567626
+            [SenderAddress] => 709892d0-0ac8-11e5-8a92-005056887b8d
+            [CityRef] => db5c897c-391c-11dd-90d9-001a92567626
+            [CounterpartyProperty] => Sender
+            [Description] => Спутник
+            [Sender] => 64bc9212-62f6-11ea-8513-b88303659df5
+            [ContactSender] => 64c245dc-62f6-11ea-8513-b88303659df5
+            [SendersPhone] => 380502750555
+            [FirstName] => Сидор
+            [MiddleName] => Сидорович
+            [LastName] => Сиродов
+            [RecipientName] => Сиродов Сидор Сидорович
+            [Phone] => 0509998877
+            [NewAddress] => 1
+            [RecipientCityName] => київ
+            [RecipientArea] => 
+            [RecipientAreaRegions] => 
+            [RecipientAddressName] => Столичне шосе 20 37
+            [RecipientHouse] => 
+            [RecipientFlat] => 
+            [RecipientType] => PrivatePerson
+            [RecipientsPhone] => 380991234567
+            [DateTime] => 14.11.2020
+            [ServiceType] => WarehouseDoors
+            [PaymentMethod] => Cash
+            [PayerType] => Recipient
+            [Cost] => 400
+            [SeatsAmount] => 1
+            [CargoType] => Cargo
+            [Weight] => 10
+            [VolumeGeneral] => 0.5
+            [VolumeWeight] => 10
+        )
+
+)

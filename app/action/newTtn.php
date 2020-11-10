@@ -30,14 +30,16 @@ $model = new Model();
 //print_r($params);
 //print_r($_GET);
 
+$receiver['CityRef'] = $receiver['CityRecipient'];
 
 
-$ttn = $model->np->newInternetDocument($sender, $receiver, $params);
+//  $ttn = $model->np->newInternetDocument($sender, $receiver, $params);
 
 //print_r($ttn);
 //
 //die();
-
+/*
+ *
 if ($ttn['success']  = 1){
     //print_r($ttn);
     //print_r($ttn['data'][0]);
@@ -45,7 +47,7 @@ if ($ttn['success']  = 1){
     header("Location: http://". $_SERVER['HTTP_HOST'] ."/index.php?reestr");
 
 }
-
+*/
 
     $ttn = $model->np->newInternetDocument(
         array(
@@ -68,14 +70,21 @@ if ($ttn['success']  = 1){
             'FirstName' => 'Сидор',
             'MiddleName' => 'Сидорович',
             'LastName' => 'Сиродов',
+            "RecipientName" => "Сиродов Сидор Сидорович",
             'Phone' => '0509998877',
-            'City' => 'Киев',
-            'Region' => 'Киевская',
-            'Warehouse' => 'Отделение №3: ул. Калачевская, 13 (Старая Дарница)',
+            "NewAddress" => "1",
+            "RecipientCityName"=> "київ",
+            "RecipientArea"=> "",
+            "RecipientAreaRegions"=> "",
+            "RecipientAddressName"=> "Столичне шосе 20 37",
+            "RecipientHouse"=> "",
+            "RecipientFlat"=> "",
+            "RecipientType"=> "PrivatePerson",
+            "RecipientsPhone"=> "380991234567",            
         ),
         array(
             'DateTime' => date('d.m.Y', time() + 4 * 84600),
-            'ServiceType' => 'WarehouseWarehouse',
+            'ServiceType' => 'WarehouseDoors',
             'PaymentMethod' => 'Cash',
             'PayerType' => 'Recipient',
             'Cost' => '400',
@@ -88,4 +97,14 @@ if ($ttn['success']  = 1){
     );
 
 
+//echo '<pre>' . print_r($ttn,1);
 
+if ($ttn['success']  = 1){
+    //print_r($ttn);
+    //print_r($ttn['data'][0]);
+    $model->saveTtn($ttn['data'] [0]);
+
+    //echo 'Save TTN';
+    header("Location: http://". $_SERVER['HTTP_HOST'] ."/index.php?reestr");
+
+}

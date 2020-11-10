@@ -1,0 +1,20 @@
+Array
+(
+    [FirstName] => Сидор
+    [MiddleName] => Сидорович
+    [LastName] => Сиродов
+    [Phone] => 0509998877
+    [Region] => Чернігівська
+    [City] => київ
+    [RecipientCityName] => київ
+    [RecipientArea] => 
+    [RecipientAreaRegions] => 
+    [RecipientAddressName] => Столичне шосе
+    [RecipientHouse] => 20
+    [RecipientFlat] => 37
+    [RecipientName] => Тест Тест Тест
+    [RecipientType] => PrivatePerson
+    [RecipientsPhone] => 0509998877
+    [CounterpartyProperty] => Recipient
+    [CityRecipient] => 
+)
